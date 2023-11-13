@@ -131,13 +131,64 @@ img {
 
  /* Mobile */
 @media screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .card,img {
+    padding-bottom: 40px;
+  }
+
+  .lessons .col {
+    width: 100%;
+  }
+
+  .steps .col {
+    width: 100%;
+  }
+
+  .lessons .col img, .steps .col img{
+    height: 250px;
+  }
+
+  .why-us .col {
+    width: 100%;
+  }
+
+  .steps, .why-us {
+    margin-bottom: 0;
+  }
+
+  .why-us {
+    padding: 3rem 0;
+    background-color: #222;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
   
- }
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 1.3rem;
+  }
+}
 
  /* Tablet */
 @media screen and (max-width: 768px) {
   .container {
-    max-width: 100%;
+    width: 100%;
   }
 
   .whi-us .col-left {
